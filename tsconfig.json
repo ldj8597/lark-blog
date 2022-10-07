@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    // Next.js default
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -15,10 +16,24 @@
     "jsx": "preserve",
     "incremental": true,
 
+    // Added
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+
     // Prisma
     "sourceMap": true,
     "outDir": "dist"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "./*.js",
+    "./src/**/*.js"
+  ],
   "exclude": ["node_modules"]
 }
