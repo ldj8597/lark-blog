@@ -10,7 +10,7 @@ export default function DefaultLayout({ children }: { children: ReactNode }) {
       <header>
         <p>This is header</p>
       </header>
-      <main>{children}</main>
+      <main className="max-w-2xl mx-auto px-4">{children}</main>
     </>
   );
 }

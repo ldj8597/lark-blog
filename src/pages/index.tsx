@@ -1,10 +1,12 @@
 // Show featured posts
+import Hero from "~/components/Hero";
 import { NextPageWithLayout } from "./_app";
 
 const HomePage: NextPageWithLayout = () => {
   return (
     <div>
-      <h1>Featured Posts</h1>
+      <Hero />
+      <h2>Featured Posts</h2>
     </div>
   );
 };
