@@ -2,6 +2,6 @@
 
 ## Todo
 
-- [ ] setup tailwind
-- [ ] setup db (prisma, planetscale)
-- [ ] setup trpc
+- [x] setup tailwind
+- [x] setup db (prisma, planetscale)
+- [x] setup trpc
