@@ -1,11 +1,12 @@
-import type { NextPage } from "next";
+// Show featured posts
+import { NextPageWithLayout } from "./_app";
 
-const Home: NextPage = () => {
+const HomePage: NextPageWithLayout = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Featured Posts</h1>
     </div>
   );
 };
 
-export default Home;
+export default HomePage;
