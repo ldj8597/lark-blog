@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import type { AppProps, AppType } from "next/app";
 import { NextPage } from "next";
 import { ReactElement, ReactNode } from "react";
-import DefaultLayout from "~/components/DefaultLayout";
+import DefaultLayout from "~/components/layout/DefaultLayout";
 import { trpc } from "~/utils/trpc";
 
 export type NextPageWithLayout<
